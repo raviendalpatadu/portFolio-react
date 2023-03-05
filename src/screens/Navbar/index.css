@@ -1,0 +1,28 @@
+nav {
+  background-color: transparent !important;
+  font-size: 1.2rem !important;
+}
+
+.nav-white-shadow a {
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem !important;
+  position: relative;
+}
+@keyframes moveDown {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 5px;
+  }
+}
+.nav-white-shadow a:hover {
+  color: white !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  background-color: transparent !important;
+  position: relative;
+  animation: moveDown 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}

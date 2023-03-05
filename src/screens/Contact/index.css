@@ -1,0 +1,11 @@
+.has-circle {
+  border-radius: 100%;
+  overflow: hidden;
+  height: 210px;
+  width: 210px;
+}
+.has-circle img {
+  width: 120px !important;
+  margin-left: 45px;
+  margin-top: 40px;
+}

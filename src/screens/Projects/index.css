@@ -1,0 +1,41 @@
+.btn-outline {
+  border: 2px solid black;
+}
+
+div.card-content button.button {
+  border-color: black;
+  font-weight: bold;
+}
+
+@keyframes colorchangebtn {
+  from {
+    border-color: black;
+    background-color: transparent;
+  }
+  to {
+    border-color: #3579fd;
+    background-color: #3579fd;
+  }
+}
+@keyframes colorchange {
+  from {
+    border-color: #3579fd;
+    background-color: #3579fd;
+  }
+  to {
+    border-color: black;
+    background-color: transparent;
+  }
+}
+div.card-content a.button:hover {
+  font-weight: bold;
+  color: white;
+  animation: colorchangebtn 0.5s;
+  animation-fill-mode: forwards;
+}
+div.card-content a.button:not(hover) {
+  font-weight: bold;
+  color: black;
+  animation: colorchange 0.5s;
+  animation-fill-mode: forwards;
+}

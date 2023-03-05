@@ -1,0 +1,15 @@
+.circle-about {
+    background-color: #3579fd;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+  }
+  
+  .circle-about-mobile {
+    background-color: #3579fd;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+  }

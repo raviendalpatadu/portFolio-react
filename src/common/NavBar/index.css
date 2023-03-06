@@ -1,6 +1,8 @@
 nav {
   background-color: transparent !important;
   font-size: 1.2rem !important;
+  z-index: 1;
+  position:absolute;
 }
 
 .nav-white-shadow a {
@@ -25,4 +27,12 @@ nav {
   animation: moveDown 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 1023px){
+.navbar-menu.is-active {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
 }

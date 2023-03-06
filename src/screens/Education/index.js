@@ -24,7 +24,7 @@ function Education() {
               </p>
             </div>
           </div>
-          <div className="columns mx-6 my-6">
+          <div className="columns mx-6 my-6" data-aos="fade-left" data-aos-duration="2000">
             <div className="column is-3">
               <div className="image is-150x150 bgcolor-brand-edu has-circle">
                 <img className="" src={stc} alt="" />
